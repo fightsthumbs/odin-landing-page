@@ -1,0 +1,29 @@
+
+
+:root {
+    --dark-background-color:#1F2937;
+    --main-text:4.8rem;
+    --main-text-color:#F9FAF8;
+    --quote-background-color:#E5E7EB;
+    --button-color:#3882f6;
+
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin:0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--dark-background-color);
+}
+
+h1 {
+    color:var(--main-text-color)
+}
