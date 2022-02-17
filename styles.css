@@ -24,6 +24,30 @@ body {
     background-color: var(--dark-background-color);
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-text-color);
+    
+}
+
+ul {
+    display: flex;
+    
+}
+
 h1 {
     color:var(--main-text-color)
+}
+
+.information {
+    background-color: white;
+}
+
+
+
+.quote-section {
+    background-color: var(--quote-background-color);
+    font-size: 3.6rem;
+    
 }
