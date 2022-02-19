@@ -4,6 +4,7 @@
     --dark-background-color:#1F2937;
     --main-text:4.8rem;
     --main-text-color:#F9FAF8;
+    --secondary-text-color:#E5E7EB;
     --quote-background-color:#E5E7EB;
     --button-color:#3882f6;
 
@@ -22,17 +23,30 @@ html {
 
 body {
     background-color: var(--dark-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     color: var(--main-text-color);
+    padding:15px;
     
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
 }
 
 ul {
     display: flex;
+    gap:25px;
     
 }
 
@@ -40,11 +54,77 @@ h1 {
     color:var(--main-text-color)
 }
 
+
+.intro-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 120px;
+    margin:auto;
+    gap: 30px;
+}
+
+.intro-section-left,
+.intro-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.intro-section-left {
+    min-width: 300px;
+     flex:2;
+     gap: 15px;
+
+}
+
+.intro-section-right {
+    /* background-color: grey; */
+   align-self: stretch;
+   /* flex-shrink: 0; */
+   flex:3;
+}
+
+
+.intro-section h1 {
+    font-size: 4.8rem;
+    line-height: 4.2rem;
+    
+}
+
+nav a,
+.intro-section p {
+    color:var(--secondary-text-color);
+    font-size: 1.8rem;
+    
+}
+
+button {
+    padding:10px 35px;
+    border-radius: 7px;
+    color:white;
+    background-color: var(--button-color);
+    border:none;
+    font-weight: 700;
+}
+
+
 .information {
     background-color: white;
 }
 
-
+img {
+    object-fit: cover;
+    object-position: center;
+    width: 400px;
+    min-width: 300px;
+  /* max-width: 400px; */
+  height: auto;
+    
+}
 
 .quote-section {
     background-color: var(--quote-background-color);
