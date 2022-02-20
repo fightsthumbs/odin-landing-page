@@ -145,7 +145,7 @@ button {
     background-color: var(--quote-background-color);
     font-size: 3.6rem;
     min-height: 150px;
-    padding:90px 240px;
+    padding:90px 150px;
     
 }
 
@@ -166,7 +166,7 @@ button {
 }
 
 .quote-author::before {
-    content: "--";
+    content: "—";
 }
 
 
@@ -191,4 +191,43 @@ button {
     height: 200px;
 }
 
+.ca-section {
+    background-color: white;
+    padding: 50px;
+}
+
+.ca-section h3 {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+}
+
+.ca-section p {
+    color:var(--secondary-text-color);
+    font-size: 1.4rem;
+    font-weight: normal;
+    
+}
+
+.blue-frame {
+    background-color: var(--button-color);
+    max-width: 740px;
+    border-radius: 0.6rem;
+    padding: 22px 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ca-section button {
+     border: 2px white solid;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--main-text-color)
+}
 
